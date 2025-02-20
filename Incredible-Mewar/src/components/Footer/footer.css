@@ -1,0 +1,61 @@
+.Bottom_bar{
+    display: flexbox;
+    position: absolute;
+    bottom: -110px;
+    left:0px;
+    width: 100%;
+    background-color: black;
+}
+
+.title{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.menu{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.optionsList{
+    display: flexbox;
+    margin-top: 6px;
+    list-style: none;
+}
+.optionsList2{
+    display: inline-flexbox;
+    margin-top: 6px;
+    list-style: none;
+    margin-left:20px;
+}
+.options{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    margin:10px;
+    width: fit-content;
+}
+
+.bottomLogout{
+    margin:10px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bottomLogout:hover, .options:hover{
+    color: red;
+}
+
+@media(max-width:280px){
+    .title{
+        font-size: 20px;
+    }
+    .options, .bottomLogout{
+        font-size: 16px;
+    }
+}

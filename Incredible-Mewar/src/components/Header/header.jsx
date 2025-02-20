@@ -1,45 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./header.css"
+import burger from "E:\\webdevelopment projects\\Incredible-Mewar\\Incredible-Mewar\\src\\Images\\menu-burger.png"
 
 export default function Header(){
+    const [sidemenu, setMenu]=useState("none");
     return(
-        <div className="top-* bg-black">
-            <nav>
-                <div className="flex flex-wrap items-center">
+        <>
+        <div className="headerBar">
+            <nav className="headerNav">
+            <h1 className="headerTitle">Incredible Mewar</h1>
+                <ul className="headerList">
+                    <NavLink to="/">
+                    <li className="headerOptions">Home</li>
+                    </NavLink>
+                    <NavLink to="/about">
+                    <li className="headerOptions">History</li>
+                    </NavLink>
+                    <NavLink>
+                    <li className="headerOptions">Forts</li>
+                    </NavLink>
+                    <NavLink to="/about">
+                    <li className="headerOptions">Palaces</li>
+                    </NavLink>
+                    <NavLink to="/about">
+                    <li className="headerOptions">Hotels</li>
+                    </NavLink>
+                    <NavLink to="/about">
+                    <li className="headerOptions">Wildlife</li>
+                    </NavLink>
+                    <li className="logout">Logout</li>
                     <Link to="/">
-                    <img src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                    className="h-12 w-12 m-2"
-                    ></img>
+                    <button id="sidebtn" class="burger_menu" onClick={()=>{
+                        if(sidemenu == "none"){setMenu("block")}
+                        else{setMenu("none")}}}>
+                        <img className="burger_menuImg" src={burger}></img>
+                    </button>
                     </Link>
-                    <h1 className="text-white font-bold font-sans mr-12 text-2xl">Incredible Mewar</h1>
-                    <div>
-                        <ul className="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0">
-                            <li>
-                                <NavLink
-                                to="/"
-                                className={({isActive}) =>
-                                    `font-bold text-xl font-mono
-                                    ${isActive ? "text-white" : "text-gray-700" } hover:text-red-400`
-                                }>
-                                    Home
-                                </NavLink>
-                            </li>
-
-                            <li>
-                                <NavLink
-                                to="/about"
-                                className={({isActive}) =>
-                                    `font-bold text-xl font-mono
-                                    ${isActive ? "text-white" : "text-gray-700" } hover:text-red-400`
-                                }>
-                                    About
-                                </NavLink>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                </ul>
             </nav>
         </div>
+
+        <div id="sidemenu" class="sideBar" style={{display: sidemenu}}>
+        <nav>
+                <ul className="sideList">
+                    <NavLink to="/">
+                    <li className="sideOptions">Home</li>
+                    </NavLink>
+                    <NavLink to="/about">
+                    <li className="sideOptions">About</li>
+                    </NavLink>
+                    <li className="sideOptions">Logout</li>
+                </ul>
+            </nav>
+        </div>
+        </>
     )
 
 }
