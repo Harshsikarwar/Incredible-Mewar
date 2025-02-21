@@ -7,8 +7,8 @@ export default function Footer(){
     return(
         <>
         <div className="Bottom_bar">
-        <h1 className="title">Incredible Mewar</h1>
             <nav className="menu">
+                <h1 className="title">Incredible Mewar</h1>
                 <ul className="optionsList">
                     <NavLink to="/">
                     <li className="options">Home</li>
@@ -22,8 +22,6 @@ export default function Footer(){
                     <NavLink to="/">
                     <li className="options">Palaces</li>
                     </NavLink>
-                </ul>
-                <ul className="optionsList2">
                     <NavLink to="/">
                     <li className="options">Wildlife</li>
                     </NavLink>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./header.css"
-import burger from "E:\\webdevelopment projects\\Incredible-Mewar\\Incredible-Mewar\\src\\Images\\menu-burger.png"
+import burger from "./burger-bar.png"
 
 export default function Header(){
     const [sidemenu, setMenu]=useState("none");
