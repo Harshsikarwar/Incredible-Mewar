@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./header.css"
 import burger from "./burger-bar.png"
+import SliderMenu from "./SliderMenu.jsx"
 
 export default function Header(){
-    const [sidemenu, setMenu]=useState("none");
+    const [sidemenu, setmenu]=useState("none");
     return(
         <>
         <div className="headerBar">
@@ -32,25 +33,17 @@ export default function Header(){
                     <li className="logout">Logout</li>
                     <Link to="/">
                     <button id="sidebtn" class="burger_menu" onClick={()=>{
-                        if(sidemenu == "none"){setMenu("block")}
-                        else{setMenu("none")}}}>
+                        if(sidemenu == "none"){
+                            let slide=document.getElementById("sidemenu");
+                            slide.style.display="block";
+                            setmenu("block");
+                        }
+                        else{let slide=document.getElementById("sidemenu");
+                            slide.style.display="none";
+                            setmenu("none")}}}>
                         <img className="burger_menuImg" src={burger}></img>
                     </button>
                     </Link>
-                </ul>
-            </nav>
-        </div>
-
-        <div id="sidemenu" class="sideBar" style={{display: sidemenu}}>
-        <nav>
-                <ul className="sideList">
-                    <NavLink to="/">
-                    <li className="sideOptions">Home</li>
-                    </NavLink>
-                    <NavLink to="/about">
-                    <li className="sideOptions">About</li>
-                    </NavLink>
-                    <li className="sideOptions">Logout</li>
                 </ul>
             </nav>
         </div>

@@ -5,7 +5,7 @@ import "./Home.css";
 import logoBanner from "./The Incredible Mewar!.png";
 import arrowRight from "./arrow-right.png";
 import arrowLeft from "./arrow-left.png";
-//import Attract from "./attractions.js";
+import SliderMenu from "../Header/SliderMenu.jsx";
 
 export default function Home(){
     const [LAttractindex, setLAttractindex] = useState(1);
@@ -52,8 +52,9 @@ export default function Home(){
     return(
         <>
         <div className="container1">
-            <Link to="/"><img className="logoBanner" src={logoBanner}></img></Link>
+                    <Link to="/"><img className="logoBanner" src={logoBanner}></img></Link>
         </div>
+        <SliderMenu/>
         <div className="container2">
             <h1 id="wellcome">Welcome to Incredible Mewar</h1>
             <h3 id="slog">Discover the Timeless Glory of Rajasthan’s Crown Jewel</h3>
