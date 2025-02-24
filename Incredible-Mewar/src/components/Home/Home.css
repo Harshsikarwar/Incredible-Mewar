@@ -68,20 +68,21 @@
     margin-bottom: 50px;
     text-align: center;
     width:100%;
-    height: fit-content;
+    height: auto;
+    background-image: url("https://i.pinimg.com/736x/82/81/85/828185e7c4102d33ae3c78f0395a87b5.jpg");
 }
 
 #heading{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 78px;
     font-weight: bold;
-    color: red;
+    color: white;
 }
 
 #subheading{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 28px;
-    color: red;
+    color: white;
 }
 
 .attractions{
@@ -97,6 +98,8 @@
     margin-left: 20px;
     margin-right: 20px;
     transform: translateX(0px);
+    transition: all 0.5s ease-out;
+    animation: entrance 1s ease-out;
 }
 
 #attractImg{
@@ -117,12 +120,11 @@
 
 .navigation{
     position: relative;
-    top: -50px;
+    top: -40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .arrow{
@@ -134,12 +136,23 @@
 
 .places:hover{
     transform:translateY(-10px);
-    transition: transform 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 #attractImg:hover{
     box-shadow: 0px 0px 10px 0px black;
     outline: none;
+}
+
+@keyframes entrance{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 @media(max-width:878px){
@@ -157,6 +170,63 @@
         font-size: 20px;
     }
 }
+
+@media(max-width:727px){
+    #heading{
+        font-size: 50px;
+    }
+    #subheading{
+        font-size: 18px;
+    }
+    #attractImg{
+        width: 200px;
+        height: 250px;
+    }
+    #attractName{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:605px){
+    #heading{
+        font-size: 40px;
+    }
+    #subheading{
+        font-size: 16px;
+    }
+    #attractImg{
+        width: 150px;
+        height: 200px;
+    }
+    #attractName{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:500px){
+    .attractions{
+        flex-direction: column;
+    }
+    #heading{
+        font-size: 35px;
+    }
+    #subheading{
+        font-size: 14px;
+    }
+    #attractImg{
+        width: 160px;
+        height: 190px;
+    }
+    #attractName{
+        font-size: 14px;
+        margin: 5px;
+    }
+    .arrow{
+        height: 40px;
+        width: 40px;
+    }
+}
+
 
 @media(max-width:350px){
     #searchBar{
