@@ -5,6 +5,9 @@ import "./Home.css";
 import logoBanner from "./The Incredible Mewar!.png";
 import SliderMenu from "../Header/SliderMenu.jsx";
 import CardSlider from "./CardSlider.jsx";
+import CircleSlider from "./CircleSlider.jsx";
+import Attract from "./Attraction.js";
+import Maharanas from "./The Royal Legacy.js";
 
 export default function Home(){
     return(
@@ -24,7 +27,12 @@ export default function Home(){
         <div className="container3">
                 <h2 id="heading">ATTRACTIONS</h2>
                 <h4 id="subheading">-- worth a thousand stories --</h4>
-                <CardSlider />
+                <CardSlider Data={Attract} />
+        </div>
+        <div className="container4">
+                <h2 id="heading">THE ROYAL LEGACY</h2>
+                <h4 id="subheading">-- Stories of Courage & Kingship --</h4>
+                <CircleSlider Data={Maharanas} />
         </div>
         </>
     )
