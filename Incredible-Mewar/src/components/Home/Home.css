@@ -31,6 +31,8 @@
     outline: none;
     border: 3px solid red;
     border-right: none;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
@@ -44,6 +46,8 @@
     border: none;
     outline: none;
     cursor: pointer;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
 }
 
 #wellcome{
@@ -65,26 +69,18 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    text-align: center;
-    width:100%;
-    height: fit-content;
-    background-image: url("https://i.pinimg.com/736x/c9/4b/70/c94b70ce84be5b0c0b16202f28634051.jpg");
-    background-size:cover;
-    background-repeat: repeat;
-}
-
-.container4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     margin-bottom: 50px;
-    width:100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width:80%;
+    justify-self: center;
     height: fit-content;
-    background-image: url("https://i.pinimg.com/736x/7e/ae/cc/7eaeccd7fc77855bdf1a835442e1e98c.jpg");
     background-size:cover;
     background-repeat: repeat;
+    background-color: rgb(202, 5, 5);
+    border-radius: 20px;
+
 }
 
 #heading{
@@ -102,7 +98,7 @@
     color: white;
 }
 
-.attractions{
+.sliderContainer{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -120,7 +116,7 @@
     width: fit-content;
 }
 
-.places{
+.card{
     margin-left: 20px;
     margin-right: 20px;
     transform: translateX(0px);
@@ -136,11 +132,12 @@
     animation: entrance 1s ease-out;
 }
 
-#attractImg{
+#cardImg{
     width: 300px;
     height: 420px;
     border-radius: 20px;
     border-width: 0px;
+    box-shadow: 0px 7px 10px 0px black;
 }
 
 #royalImg{
@@ -148,9 +145,10 @@
     height: 350px;
     border-radius: 50%;
     border-width: 0px;
+    box-shadow: 0px 0px 10px 0px black;
 }
 
-#attractName{
+#cardName{
     position: relative;
     top: -80px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -161,11 +159,12 @@
 
 #royalName{
     position: relative;
-    top: -80px;
+    top: 0px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: white;
+    margin-bottom: 25px;
 }
 
 .navigation{
@@ -184,22 +183,29 @@
     cursor: pointer;
 }
 
-.places:hover{
+.card:hover, .royals:hover{
     transform:translateY(-10px);
     transition: all 0.5s ease-out;
-}
-
-.places:hover{
-    #attractImg{
-        box-shadow: 0px 0px 10px 0px black;
-        outline: none;
-    }
 }
 
 .royals:hover{
     #royalImg{
         box-shadow: 0px 0px 10px 0px black;
         outline: none;
+    }
+}
+
+@media(max-width:1140px){
+    #cardImg{
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media(max-width:990px){
+    #cardImg{
+        width: 220px;
+        height: 320px;
     }
 }
 
@@ -211,7 +217,7 @@
     #subheading{
         font-size: 20px;
     }
-    #attractImg{
+    #cardImg{
         width: 250px;
         height: 300px;
     }
@@ -234,19 +240,19 @@
     #subheading{
         font-size: 18px;
     }
-    #attractImg{
+    #cardImg{
         width: 200px;
-        height: 250px;
+        height: 220px;
     }
-    #attractName{
-        font-size: 18px;
+    #cardName{
+        font-size: 16px;
     }
     #royalImg{
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
     }
     #royalName{
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -257,11 +263,11 @@
     #subheading{
         font-size: 16px;
     }
-    #attractImg{
+    #cardImg{
         width: 150px;
         height: 200px;
     }
-    #attractName{
+    #cardName{
         font-size: 16px;
     }
     #royalImg{
@@ -276,11 +282,26 @@
     }
 }
 
+@media(max-width:587px){
+    #cardImg{
+        width: 150px;
+        height: 190px;
+    }
+    #cardName{
+        font-size: 14px;
+        margin: 5px;
+    }
+    #royalImg{
+        width: 180px;
+        height: 180px;
+    }
+}
+
 @media(max-width:500px){
-    .attractions{
+    .sliderContainer, .legacy{
         flex-direction: column;
     }
-    .places{
+    .card{
         animation: entrance2 0.5s ease-in-out;
     }
     #heading{
@@ -289,11 +310,11 @@
     #subheading{
         font-size: 14px;
     }
-    #attractImg{
+    #cardImg{
         width: 160px;
         height: 190px;
     }
-    #attractName{
+    #cardName{
         font-size: 14px;
         margin: 5px;
     }
@@ -302,7 +323,7 @@
         width: 40px;
     }
     #royalImg{
-        width: 190px;
+        width: 150px;
         height: 150px;
     }
     #royalName{
@@ -312,8 +333,11 @@
 }
 
 @media(max-width:400px){
-    .legacy{
-        flex-direction: column;
+    #heading{
+        font-size: 30px;
+    }
+    #subheading{
+        font-size: 12px;
     }
     #royalName{
         top: -60px;
@@ -328,6 +352,9 @@
 
 
 @media(max-width:350px){
+    #heading{
+        font-size: 25px;
+    }
     #searchBar{
         width: 150px;
     }
