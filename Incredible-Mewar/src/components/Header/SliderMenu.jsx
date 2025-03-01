@@ -11,19 +11,19 @@ function SliderMenu(setMenu){
                         <NavLink to="/">
                         <li className="sideOptions">Home</li>
                         </NavLink>
-                        <NavLink to="/about">
+                        <NavLink to="/History">
                         <li className="sideOptions">History</li>
                         </NavLink>
                         <NavLink to="/">
                         <li className="sideOptions">Forts</li>
                         </NavLink>
-                        <NavLink to="/about">
+                        <NavLink to="/History">
                         <li className="sideOptions">Palaces</li>
                         </NavLink>
                         <NavLink to="/">
                         <li className="sideOptions">Hotels</li>
                         </NavLink>
-                        <NavLink to="/about">
+                        <NavLink to="/History">
                         <li className="sideOptions">Wildlife</li>
                         </NavLink>
                         <li className="sideOptions">Logout</li>

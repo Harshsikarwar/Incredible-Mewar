@@ -34,7 +34,7 @@ export default function Home(){
         <div className="container3" style={{backgroundImage:'url("https://i.pinimg.com/736x/7e/ae/cc/7eaeccd7fc77855bdf1a835442e1e98c.jpg")'}}>
                 <h2 id="heading">THE ROYAL LEGACY</h2>
                 <h4 id="subheading">-- Stories of Courage & Kingship --</h4>
-                <CircleSlider Data={Maharanas}/>
+                <CircleSlider Data={Maharanas} max={5} status="block"/>
         </div>
         <div className="container3" style={{backgroundImage:'url("https://i.pinimg.com/1200x/74/74/e3/7474e3188ae17cc7686ca4c75b3f37ac.jpg")'}}>
                 <h2 id="heading">Taste of Tradition</h2>
@@ -45,6 +45,19 @@ export default function Home(){
                 <h2 id="heading">Timeless Trails</h2>
                 <h4 id="subheading" style={{fontWeight:700}}>-- Designed for You --</h4>
                 <CardSlider Data={Plans} max={3} status="none"/>
+        </div>
+        <div className="container2">
+            <h1 id="wellcome">About Incredible Mewar</h1>
+            <h3 id="slog" style={{marginBottom:"10px"}}>Unveiling the Legacy, Culture & Grandeur of Mewar</h3>
+            <h5 id="para">
+                Mewar is more than just a region; it's a living testament to valor, heritage, and timeless traditions.
+                At Incredible Mewar, we bring you closer to the heart of Rajasthan’s most historic land—where warrior kings
+                ruled with honor, grand palaces whisper tales of the past, and vibrant culture thrives in every corner.
+                
+                Our platform is dedicated to showcasing the rich history, royal architecture, breathtaking landscapes, and 
+                mouthwatering cuisine of Mewar. Whether you're a history buff, a travel enthusiast, or someone seeking an unforgettable experience, 
+                we are here to guide you through Mewar’s most iconic destinations, hidden gems, and cultural wonders.
+            </h5>
         </div>
         </>
     )

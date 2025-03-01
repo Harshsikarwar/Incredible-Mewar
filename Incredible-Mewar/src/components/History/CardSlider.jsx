@@ -3,7 +3,7 @@ import { useState } from "react";
 import arrowRight from "./arrow-right.png";
 import arrowLeft from "./arrow-left.png";
 
-const CircleSlider = ({Data, max=5, status}) => {
+const CardSlider = ({Data, max, status, radius}) => {
     const [Lindex, setLindex] = useState(1);
     const [Rindex, setRindex] = useState(3);
     function changeIndexLeft(){
@@ -20,12 +20,12 @@ const CircleSlider = ({Data, max=5, status}) => {
     }
     return(
         <>
-            <div className="legacy">
+            <div className="sliderContainer">
                 {Data.map((data) => (
                     data.id >= Lindex && data.id <= Rindex &&(
-                        <div id="place" className="royals" key={data.id}>
-                            <img id="royalImg" src={data.image}></img>
-                            <h3 id="royalName">{data.name}</h3>
+                        <div className="card" key={data.id}>
+                            <img id="cardImg" src={data.image} style={{borderRadius:radius}}></img>
+                            <h3 id="cardName">{data.name}</h3>
                         </div>
                     )
                 ))}
@@ -37,4 +37,4 @@ const CircleSlider = ({Data, max=5, status}) => {
         </>
     );
 };
-export default CircleSlider;
+export default CardSlider;
