@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import arrowRight from "./arrow-right.png";
 import arrowLeft from "./arrow-left.png";
+import Maharanas from "./Maharanas.js";
 
 const CardSlider = ({Data, max, status, radius}) => {
     const [Lindex, setLindex] = useState(1);
@@ -18,13 +19,26 @@ const CardSlider = ({Data, max, status, radius}) => {
             setRindex(Rindex+1);
         }
     }
+    
+    function history(getId){
+        let gethistory=document.querySelector(".historyContainer");
+        let getName=document.getElementById("historyTitle");
+        let getDiscription=document.getElementById("historyInfo");
+        gethistory.style.display="block";
+        Data.map((maharana)=>{
+            if(getId === maharana.id){
+                getName.innerText=maharana.name
+                getDiscription.innerText=maharana.history
+            }
+     })
+    }
     return(
         <>
             <div className="sliderContainer">
                 {Data.map((data) => (
                     data.id >= Lindex && data.id <= Rindex &&(
-                        <div className="card" key={data.id}>
-                            <img id="cardImg" src={data.image} style={{borderRadius:radius}}></img>
+                        <div className="card" key={data.id} onClick={()=>history(data.id)}>
+                            <img id="cardImg" src={data.image} style={{borderRadius:radius, boxShadow:"none"}}></img>
                             <h3 id="cardName">{data.name}</h3>
                         </div>
                     )

@@ -1,25 +1,59 @@
-.histroyContainer1{
-    width:80%;
-    height: fit-content;
-    background-color: blueviolet;
-    margin-bottom: 50px;
+.historyContainer{
+    display: none;
     justify-self: center;
-    justify-items: center;
+    position: fixed;
+    top:80px;
+    width:90%;
+    margin-left:5%;
+    margin-right: 5%;
+    height: 85%;
+    background-color: white;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px black;
+    background-image: url("https://i.pinimg.com/originals/6f/21/78/6f21787c7d7cdf9e523cff32558842dd.jpg");
+    background-size: cover;
+    color: black;
+}
+
+.historyHeader{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-self: center;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 #historyTitle{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    font-size: 65px;
-    margin-top: 80px;
+    font-size: 34px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    justify-self: center;
+    text-align: left;
+    margin-left: 10px;
+    width:95%;
 }
 
-#containerTitle{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    font-size: 65px;
-    justify-self: center;
+#cancelButton{
+    height: 30px;
+    width: 30px;
+}
+
+#historyInfo{
+    font-family:serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#cancelButton:hover{
+    transform: scale(1.1);
 }
