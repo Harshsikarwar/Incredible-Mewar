@@ -13,17 +13,14 @@ export default function Footer(){
                     <NavLink to="/">
                     <li className="options">Home</li>
                     </NavLink>
-                    <NavLink to="/">
+                    <NavLink to="/history">
                     <li className="options">History</li>
                     </NavLink>
-                    <NavLink to="/">
-                    <li className="options">Forts</li>
+                    <NavLink to="/places">
+                    <li className="options">Places</li>
                     </NavLink>
                     <NavLink to="/">
-                    <li className="options">Palaces</li>
-                    </NavLink>
-                    <NavLink to="/">
-                    <li className="options">Wildlife</li>
+                    <li className="options">Hotels</li>
                     </NavLink>
                     <NavLink to="/about">
                     <li className="options">About</li>

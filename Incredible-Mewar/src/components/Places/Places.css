@@ -1,0 +1,72 @@
+.placesContainer1{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    width:100%;
+    margin-top: 55px;
+    background-color: blueviolet;
+}
+
+.placeSubcontain1{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width:58%;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: salmon;
+}
+
+.placeImages{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    background-color: cornflowerblue;
+}
+
+.bullitenInfo{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width:38%;
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right: 2%;
+    background-color: salmon;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    width:100%;
+    margin-top: 20px;
+    justify-self: center;
+    background-color: white;
+}
+
+#infoTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+#subInfo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 24px;
+}
+
+#aboutPlaces{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}

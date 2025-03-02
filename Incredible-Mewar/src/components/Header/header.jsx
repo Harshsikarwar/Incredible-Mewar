@@ -15,20 +15,17 @@ export default function Header(){
                     <NavLink to="/">
                     <li className="headerOptions">Home</li>
                     </NavLink>
-                    <NavLink to="/History">
+                    <NavLink to="/history">
                     <li className="headerOptions">History</li>
                     </NavLink>
-                    <NavLink>
-                    <li className="headerOptions">Forts</li>
+                    <NavLink to="/places">
+                    <li className="headerOptions">Places</li>
                     </NavLink>
-                    <NavLink to="/History">
-                    <li className="headerOptions">Palaces</li>
-                    </NavLink>
-                    <NavLink to="/History">
+                    <NavLink to="/history">
                     <li className="headerOptions">Hotels</li>
                     </NavLink>
-                    <NavLink to="/History">
-                    <li className="headerOptions">Wildlife</li>
+                    <NavLink to="/history">
+                    <li className="headerOptions">Travels</li>
                     </NavLink>
                     <li className="logout">Logout</li>
                     <Link to="/">
