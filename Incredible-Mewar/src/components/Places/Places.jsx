@@ -1,35 +1,27 @@
 import React from "react";
 import "./Places.css";
-
+import CardSlider from "./CardSlider";
+import placesData from "./places";
+import Palaces from "./palaces";
+import Forts from "./forts";
 
 export default function Places(){
     return(
         <>
-        <div className="placesContainer1">
-            <div className="placeSubcontain1">
-                <div className="placeImages"></div>
-                <div className="placesAbout">
-                    <p id="aboutPlaces">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores magni suscipit vel sunt? Veniam expedita culpa, nisi, repellat consectetur ut alias eligendi explicabo dignissimos sequi praesentium magnam necessitatibus fugit harum!
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti aut perspiciatis vero laudantium, hic ullam molestiae voluptates itaque quidem unde doloribus veniam consequuntur id blanditiis eaque repudiandae ab, suscipit accusamus.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae obcaecati dolorum ducimus enim ipsum veniam quisquam, quam autem saepe laudantium repellendus, sequi explicabo dolorem non! Voluptatem ipsum explicabo accusamus.
-                    </p>
-                </div>
-            </div>
-            <div className="bullitenInfo">
-                <div className="Info">
-                    <h3 id="infoTitle">Railway Stations</h3>
-                    <h4 id="subInfo">info-1</h4>
-                    <h4 id="subInfo">info-1</h4>
-                    <h4 id="subInfo">info-1</h4>
-                </div>
-                <div className="Info">
-                    <h3 id="infoTitle">Airports</h3>
-                    <h4 id="subInfo">info-1</h4>
-                    <h4 id="subInfo">info-1</h4>
-                    <h4 id="subInfo">info-1</h4>
-                </div>
-            </div>
+        <div className="container2">
+            <h1 id="wellcome">Incredible Places Of Mewar</h1>
+        </div>
+        <div className="container3" style={{ backgroundImage:'url("https://i.pinimg.com/originals/9a/f5/34/9af534474cdac84ee91ec51f1eb4bd71.png")'}}>
+            <h1 id="heading">Must Visit Places</h1>
+            <CardSlider Data={placesData} max={5}/>
+        </div>
+        <div className="container3" style={{backgroundImage:'url("https://i.pinimg.com/1200x/e0/e1/cb/e0e1cba20f78e7d05a837c462d775001.jpg")'}}>
+            <h1 id="heading">The GrandForts</h1>
+            <CardSlider Data={Forts} max={5}/>
+        </div>
+        <div className="container3" style={{backgroundImage:'url("https://i.pinimg.com/originals/e4/53/73/e453732c5c4a6383ad5768033035218e.jpg")'}}>
+            <h1 id="heading">The Royal Palaces</h1>
+            <CardSlider Data={Palaces} max={5}/>
         </div>
         </>
     )
