@@ -2,28 +2,28 @@
 const Forts=[
     {
         id:1,
-        name:"Chhitor Fort",
-        image:"https://i.pinimg.com/1200x/5a/f1/67/5af1672df424c89e0e2177ad2470715d.jpg"
+        name:"Chittor Fort",
+        image:"https://i.pinimg.com/1200x/02/de/9d/02de9de7ba6bce256a77caa3a35610bc.jpg"
     },
     {
         id:2,
-        name:"Kumbhalgad Fort",
-        image:"https://i.pinimg.com/originals/45/8d/b8/458db85637a02e2a184515e746eaa27e.jpg"
+        name:"Kumbhalgarh Fort",
+        image:"https://i.pinimg.com/1200x/d8/61/31/d861316978b8eb28be321b9074a8ed8e.jpg"
     },
     {
         id:3,
-        name:"Ranthambor Fort",
-        image:"https://i.pinimg.com/236x/7e/a7/0c/7ea70c1cbf916de47e0345647b004c70.jpg"
+        name:"Ranthambore Fort",
+        image:"https://i.pinimg.com/1200x/ca/58/f9/ca58f9ffcf02d135761ee0ec7bf179c4.jpg"
     },
     {
         id:4,
-        name:"Mandalgad Fort",
-        image:"https://i.pinimg.com/originals/15/b7/c1/15b7c19cafd363357ad7abbbd2e564ef.jpg"
+        name:"Badnore Fort",
+        image:"https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2022/11/Bhilwara-Badnore-Fort-Rajasthan.jpg?resize=1023%2C763&ssl=1"
     },
     {
         id:5,
         name:"Pratapgad Fort",
-        image:"https://i.pinimg.com/474x/91/fc/56/91fc563cb7f4ebc382890ded4396db0d.jpg"
+        image:"https://files.yappe.in/place/full/pratapgarh-fort-6909741.webp"
     },
 ]
 

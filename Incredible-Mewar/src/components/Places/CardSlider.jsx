@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import arrowRight from "./arrow-right.png";
 import arrowLeft from "./arrow-left.png";
+import { NavLink } from "react-router-dom";
 
 const CardSlider = ({Data, max, status, radius}) => {
     const [Lindex, setLindex] = useState(1);
@@ -36,10 +37,10 @@ const CardSlider = ({Data, max, status, radius}) => {
             <div className="sliderContainer">
                 {Data.map((data) => (
                     data.id >= Lindex && data.id <= Rindex &&(
-                        <div className="card" key={data.id} onClick={()=>history(data.id)}>
+                        <NavLink to={data.name}><div className="card" key={data.id} onClick={()=>history(data.id)}>
                             <img id="cardImg" src={data.image} style={{borderRadius:radius, boxShadow:"none"}}></img>
                             <h3 id="cardName">{data.name}</h3>
-                        </div>
+                        </div></NavLink>
                     )
                 ))}
             </div>

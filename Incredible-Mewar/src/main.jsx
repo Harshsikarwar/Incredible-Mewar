@@ -32,7 +32,7 @@ const router= createBrowserRouter(
       <Route path='' element={<Home />} />
       <Route path='history' element={<History />}/>
       <Route path='places' element={<Places />}/>
-      <Route path='places/udiapur' element={<AboutPlaces />}/>
+      <Route path='places/:username' element={<AboutPlaces />}/>
     </Route>
   )
 )

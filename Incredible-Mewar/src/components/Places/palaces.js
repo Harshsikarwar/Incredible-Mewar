@@ -13,17 +13,17 @@ const Palaces=[
     {
         id:3,
         name:"Rani Padmani Palace",
-        image:"https://i.pinimg.com/236x/7e/a7/0c/7ea70c1cbf916de47e0345647b004c70.jpg"
+        image:"https://i.pinimg.com/1200x/f9/47/2b/f9472b7335e5ce331d5fc927fae828b9.jpg"
     },
     {
         id:4,
         name:"Bagor Ki Haveli",
-        image:"https://i.pinimg.com/originals/15/b7/c1/15b7c19cafd363357ad7abbbd2e564ef.jpg"
+        image:"https://i.pinimg.com/236x/7e/a7/0c/7ea70c1cbf916de47e0345647b004c70.jpg"
     },
     {
         id:5,
-        name:"Moonson Palace",
-        image:"https://i.pinimg.com/474x/91/fc/56/91fc563cb7f4ebc382890ded4396db0d.jpg"
+        name:"Monsoon Palace",
+        image:"https://i.pinimg.com/1200x/13/c6/0b/13c60b7dc3f9b6d7b6772f9464d8dc10.jpg"
     },
 ]
 
