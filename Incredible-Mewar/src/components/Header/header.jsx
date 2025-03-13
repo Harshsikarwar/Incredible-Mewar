@@ -21,16 +21,16 @@ export default function Header(){
                     <NavLink to="/places">
                     <li className="headerOptions">Places</li>
                     </NavLink>
-                    <NavLink to="/history">
+                    <NavLink to="/hotels">
                     <li className="headerOptions">Hotels</li>
                     </NavLink>
                     <NavLink to="/history">
                     <li className="headerOptions">Travels</li>
                     </NavLink>
                     <li className="logout">Logout</li>
-                    <Link to="/">
+                    <Link to="">
                     <button id="sidebtn" class="burger_menu" onClick={()=>{
-                        if(sidemenu == "none"){
+                        if(sidemenu === "none"){
                             let slide=document.getElementById("sidemenu");
                             slide.style.display="block";
                             setmenu("block");

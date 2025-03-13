@@ -9,7 +9,14 @@ The temple complex consists of 108 smaller temples dedicated to various deities,
 
 Ekling Ji Temple is not just a place of worship but also a historical site that symbolizes the devotion of the rulers of Mewar to Lord Shiva. The temple continues to be managed by the royal family, preserving its traditions and rituals. Its location amidst the Aravalli Hills makes it a serene retreat for both devotees and history enthusiasts. The temple remains an architectural and spiritual marvel, drawing tourists and pilgrims alike to experience its divine aura and rich cultural heritage.
 
-`
+`,
+    HowtoVisit: "Located in Udaipur, Rajasthan, accessible via road from Udaipur city center.",
+
+    WhatSpecial: "A revered Hindu temple dedicated to Lord Shiva, with a four-faced black marble idol.",
+
+    Events: "Major celebrations on Mahashivaratri, with grand rituals and cultural performances."
+
+
     },
     {
         id: 2,
@@ -23,7 +30,12 @@ The lake is a picturesque destination, especially during sunrise and sunset when
 
 Apart from its aesthetic appeal, Rajsamand Lake played a strategic role during history, serving as a seaplane base for British forces during World War II. Today, it continues to be a source of irrigation and drinking water for nearby villages. Whether for its historical significance, architectural splendor, or natural beauty, Rajsamand Lake remains an integral part of Rajasthan’s cultural and ecological landscape.
 
-`
+`,
+    HowtoVisit: "Located near Rajsamand town, about 67 km from Udaipur, accessible by road.",
+
+    WhatSpecial: "A 17th-century artificial lake built by Maharana Raj Singh I, known for its marble embankments and inscriptions.",
+
+    Events: "Local cultural festivals and migratory bird-watching events."
     },
     {
         id: 3,
@@ -37,7 +49,12 @@ The City Palace Museum, housed within the complex, offers visitors a glimpse int
 
 The palace is a must-visit destination in Udaipur, hosting cultural performances and light-and-sound shows that narrate the grand history of Mewar. Whether admired for its opulence, history, or breathtaking views, the Udaipur City Palace remains an emblem of Rajput grandeur and architectural brilliance.
 
-`
+`,
+    HowtoVisit: "Located in Udaipur, accessible by road, train, and air.",
+
+    WhatSpecial: "A magnificent palace complex overlooking Lake Pichola, showcasing Rajput architecture.",
+
+    Events: "Mewar Festival, cultural exhibitions, and light shows."
     },
     {
         id: 4,
@@ -51,7 +68,12 @@ In 1963, the Taj Group of Hotels took over the Lake Palace and transformed it in
 
 Apart from being a luxury retreat, the Lake Palace is also a popular filming location and has been featured in several Bollywood and Hollywood movies, including the James Bond film Octopussy. Whether experienced as a hotel guest or admired from a distance, the Lake Palace remains a symbol of Rajasthan’s royal legacy and architectural brilliance.
 
-`
+`,
+    HowtoVisit: "Situated on Lake Pichola in Udaipur, accessible by boat.",
+
+    WhatSpecial: "A luxurious heritage hotel known for its stunning architecture and lake views.",
+
+    Events: "Exclusive events, royal stays, and destination weddings."
     },
     {
         id: 5,
@@ -65,7 +87,12 @@ The evening cultural performances, known as the Dharohar Dance Show, are a major
 
 With its rich history, stunning architecture, and lively cultural performances, Bagore Ki Haveli remains one of Udaipur’s most cherished historical landmarks, offering visitors a chance to step back in time and experience the grandeur of Rajasthan’s royal past.
 
-`
+`,
+    HowtoVisit: "Located in Udaipur near Lake Pichola, accessible by road.",
+
+    WhatSpecial: "A historic haveli featuring Rajasthani art, costumes, and cultural exhibits.",
+
+    Events: "Traditional dance performances (Dharohar Show) held in the evening."
     },
     {
         id: 6,
@@ -78,7 +105,13 @@ The fort has witnessed many historical battles, including those against Alauddin
 Chittor Fort houses several architectural marvels, including the Vijay Stambh (Victory Tower), built by Rana Kumbha, and the Kirti Stambh (Tower of Fame), dedicated to Jainism. The Rana Kumbha Palace, Rani Padmini’s Palace, and Gaumukh Reservoir add to the fort’s historical significance.
 
 Today, Chittor Fort is a major tourist destination, attracting visitors who wish to experience its rich history and admire its stunning architecture. Its tales of valor and sacrifice continue to inspire and make it a proud emblem of Rajasthan’s glorious past.`
-    },
+,
+    HowtoVisit: "Located in Chittorgarh, accessible by road and rail from major Rajasthan cities.",
+
+    WhatSpecial: "A UNESCO World Heritage Site known for its Rajput history, Vijay Stambh, and Rani Padmini’s Palace.",
+
+    Events: "Light and sound shows, cultural programs showcasing Rajput history."
+},
     {
         id: 7,
         name: "Kumbhalgarh Fort",
@@ -91,7 +124,12 @@ The fort holds immense historical significance as it served as the refuge of Mah
 
 Kumbhalgarh Fort is a popular tourist destination, attracting history enthusiasts and adventure seekers alike. Every year, the Kumbhalgarh Festival celebrates Rajasthan’s rich cultural heritage through folk performances and traditional arts. The fort, illuminated at night, presents a mesmerizing spectacle, making it a must-visit site in Rajasthan.
 
-`
+`,
+    HowtoVisit: "Located in Rajsamand district, about 85 km from Udaipur, accessible by road.",
+
+    WhatSpecial: "Famous for its massive walls (second-longest in the world) and its historical importance in Rajputana.",
+
+    Events: "Kumbhalgarh Festival with folk performances and cultural programs."
     },
     {
         id: 8,
@@ -105,7 +143,12 @@ Throughout its history, the fort changed hands multiple times, with rulers from 
 
 Now part of the Ranthambore National Park, the fort is surrounded by lush forests and wildlife, including tigers, leopards, and a variety of bird species. Its inclusion in the UNESCO World Heritage Site list as part of the Hill Forts of Rajasthan has further increased its prominence. Today, Ranthambore Fort attracts history enthusiasts, pilgrims, and nature lovers, offering a unique blend of history, spirituality, and natural beauty. The panoramic views from the fort provide an unforgettable experience, making it one of Rajasthan’s most treasured heritage sites.
 
-`
+`,
+    HowtoVisit: "Located within Ranthambore National Park, accessible via road from Sawai Madhopur.",
+
+    WhatSpecial: "A historic fort with temples and stunning views of the national park.",
+
+    Events: "Religious celebrations at Trinetra Ganesh Temple, guided wildlife tours."
     },
     {
         id: 9,
@@ -115,15 +158,25 @@ Now part of the Ranthambore National Park, the fort is surrounded by lush forest
 
 The fort served as a strategic military post and played an important role in protecting the region from invasions. It is believed to have been built by the rulers of Mewar, who used it as a defensive stronghold against external threats. The fort’s interiors include courtyards, temples, and residential areas that once housed royalty and soldiers.
 
-Despite its historical significance, Badnore Fort remains relatively unexplored by mainstream tourists. However, its serene environment and rich heritage attract history enthusiasts and photographers. The fort stands as a testament to Rajasthan’s warrior legacy and continues to be a fascinating site for those interested in exploring lesser-known historical landmarks of the region.`
-    },
+Despite its historical significance, Badnore Fort remains relatively unexplored by mainstream tourists. However, its serene environment and rich heritage attract history enthusiasts and photographers. The fort stands as a testament to Rajasthan’s warrior legacy and continues to be a fascinating site for those interested in exploring lesser-known historical landmarks of the region.`,
+    HowtoVisit: "Located in Bhilwara district, accessible via road.",
+
+    WhatSpecial: "A lesser-known Rajput fort offering panoramic views and rich history.",
+
+    Events: "Occasional heritage tourism activities."
+},
     {
         id: 10,
         name: "Pratapgad Fort",
         image: "https://files.yappe.in/place/full/pratapgarh-fort-6909741.webp",
         description: `Pratapgad Fort, located in Alwar, Rajasthan, is a lesser-known but historically significant fort. Constructed during the reign of the Rajput rulers, this fort served as a crucial defensive structure, protecting the region from invasions. It is situated atop a rugged hill, offering panoramic views of the surrounding countryside.
 
-The fort features robust walls, watchtowers, and ancient gates, showcasing the architectural brilliance of Rajput military design. Though not as famous as other Rajasthani forts, Pratapgad Fort retains an aura of mystery and historical intrigue. It remains an important site for history enthusiasts and travelers exploring Rajasthan’s lesser-known heritage sites.`
+The fort features robust walls, watchtowers, and ancient gates, showcasing the architectural brilliance of Rajput military design. Though not as famous as other Rajasthani forts, Pratapgad Fort retains an aura of mystery and historical intrigue. It remains an important site for history enthusiasts and travelers exploring Rajasthan’s lesser-known heritage sites.`,
+    HowtoVisit: "Situated in Alwar, accessible via road.",
+
+    WhatSpecial: "A Rajput fort with strong military architecture and strategic history.",
+
+    Events: "Tourist visits, photography excursions."
     },
     {
         id: 11,
@@ -137,7 +190,12 @@ The City Palace Museum, housed within the complex, offers visitors a glimpse int
 
 The palace is a must-visit destination in Udaipur, hosting cultural performances and light-and-sound shows that narrate the grand history of Mewar. Whether admired for its opulence, history, or breathtaking views, the Udaipur City Palace remains an emblem of Rajput grandeur and architectural brilliance.
 
-`
+`,
+    HowtoVisit: "Located in Udaipur, accessible by road, train, and air.",
+
+    WhatSpecial: "A magnificent palace complex overlooking Lake Pichola, showcasing Rajput architecture.",
+
+    Events: "Mewar Festival, cultural exhibitions, and light shows."
     },
     {
         id: 12,
@@ -151,7 +209,12 @@ In 1963, the Taj Group of Hotels took over the Lake Palace and transformed it in
 
 Apart from being a luxury retreat, the Lake Palace is also a popular filming location and has been featured in several Bollywood and Hollywood movies, including the James Bond film Octopussy. Whether experienced as a hotel guest or admired from a distance, the Lake Palace remains a symbol of Rajasthan’s royal legacy and architectural brilliance.
 
-`
+`,
+    HowtoVisit: "Situated on Lake Pichola in Udaipur, accessible by boat.",
+
+    WhatSpecial: "A luxurious heritage hotel known for its stunning architecture and lake views.",
+
+    Events: "Exclusive events, royal stays, and destination weddings."
     },
     {
         id: 13,
@@ -165,7 +228,12 @@ Architecturally, the palace showcases elegant Rajputana design, with intricately
 
 Today, Rani Padmini Palace attracts tourists and historians eager to witness the site of this legendary tale. The palace remains a symbol of Rajput valor and the unwavering spirit of its women. It is a must-visit destination for those interested in Rajasthan’s rich history, offering visitors a glimpse into the life and sacrifice of one of its most revered queens.
 
-`
+`,
+    HowtoVisit: "Inside Chittorgarh Fort, accessible by road.",
+
+    WhatSpecial: "A historic palace associated with Rani Padmini’s legendary tale.",
+
+    Events: "Tourist visits and heritage walks within Chittorgarh Fort."
     },
     {
         id: 14,
@@ -179,7 +247,12 @@ The evening cultural performances, known as the Dharohar Dance Show, are a major
 
 With its rich history, stunning architecture, and lively cultural performances, Bagore Ki Haveli remains one of Udaipur’s most cherished historical landmarks, offering visitors a chance to step back in time and experience the grandeur of Rajasthan’s royal past.
 
-`
+`,
+    HowtoVisit: "Located in Udaipur near Lake Pichola, accessible by road.",
+
+    WhatSpecial: "A historic haveli featuring Rajasthani art, costumes, and cultural exhibits.",
+
+    Events: "Traditional dance performances (Dharohar Show) held in the evening."
     },
     {
         id: 15,
@@ -193,7 +266,12 @@ One of the main attractions of Monsoon Palace is its breathtaking sunset views. 
 
 Today, Monsoon Palace is a popular tourist destination, attracting visitors who wish to experience its historical charm and enjoy the spectacular scenery. Whether exploring its grand corridors or simply admiring the views from its terraces, Monsoon Palace remains an iconic symbol of Udaipur’s regal beauty and architectural elegance.
 
-`
+`,
+    HowtoVisit: "Situated atop a hill in Udaipur, accessible by road.",
+
+    WhatSpecial: "A scenic palace offering panoramic views of Udaipur and Aravalli Hills.",
+
+    Events: "Sunset view experiences, photography tours."
     }
 ];
 

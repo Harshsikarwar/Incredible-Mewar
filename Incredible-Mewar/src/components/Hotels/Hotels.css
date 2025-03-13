@@ -1,0 +1,177 @@
+.hotelContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    justify-self: center;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.603);
+    box-shadow: 0px 0px 10px 0px black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.hotelData{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color:coral;
+    margin: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    animation: entrance 0.7s ease-in-out;
+}
+
+.hotelInfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background:none;
+    margin-bottom: 10px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.hotelCard{
+    display: flex;
+    flex-direction: column;
+}
+
+#hotelName{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#detailBtn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(197, 14, 14);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.key{
+    display: none;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#pair{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: none;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+#detailBtn:hover{
+    background-color: red;
+}
+
+#hotelTitle{
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hotelData:hover{
+    transform: translateY(-10px);
+}
+
+@media(max-width:1136px){
+    .hotelData{
+        width:250px;
+        height: 300px;
+    }
+}
+
+@media(max-width:940px){
+    .hotelContainer{
+        width:95%;
+    }
+    .hotelData{
+        width:200px;
+        height: 280px;
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .key{
+        font-size: 16px;
+    }
+    #pair{
+        font-size: 12px;
+    }
+    #hotelName{
+        font-size: 16px;
+    }
+    #detailBtn{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:724px){
+    .hotelContainer{
+        flex-direction: column;
+    }
+    .hotelData{
+        justify-self: center;
+        width:95%;
+        background-position-y: -180px;
+        animation: entrance2 0.7s ease-in-out;
+    }
+    .key{
+        font-size: 16px;
+    }
+    #pair{
+        font-size: 12px;
+    }
+    #hotelName{
+        font-size: 16px;
+    }
+    #detailBtn{
+        font-size: 16px;
+    }
+    #hotelTitle{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:618px){
+    .hotelData{
+        background-position-y: -120px;
+    }
+}
+
+@media(max-width:530px){
+    .hotelData{
+        background-position-y: -50px;
+    }
+    #hotelTitle{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:434px){
+    .hotelData{
+        background-position-y: -20px;
+        margin-left: 2px;
+    }
+}

@@ -9,6 +9,7 @@ import { createBrowserRouter, createRoutesFromElements, RouterProvider } from 'r
 import History from './components/History/History.jsx'
 import Places from './components/Places/Places.jsx'
 import AboutPlaces from './components/Places/AboutPlace.jsx'
+import Hotels from './components/Hotels/Hotels.jsx'
 
 /*const router = createBrowserRouter([{
   path: '/',
@@ -33,6 +34,7 @@ const router= createBrowserRouter(
       <Route path='history' element={<History />}/>
       <Route path='places' element={<Places />}/>
       <Route path='places/:username' element={<AboutPlaces />}/>
+      <Route path='hotels' element={<Hotels/>}/>
     </Route>
   )
 )
